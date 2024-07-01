@@ -1,0 +1,46 @@
+.userCard{
+    width: 250px;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.userCard__name{
+    padding-bottom: 5px;
+}
+.userCard__list{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.userCard__item{
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+.userCard__line{
+    border-color: #830dba;
+}
+.userCard__item span:first-child{
+    color: rgb(173, 172, 172);
+}
+.userCard__btns{
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.userCard__btns button:first-child{
+    color: white;
+    border-radius: 4px;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+}
+.userCard__btns button:last-child{
+    color: #a9a8a8;
+    border: 1px solid #a9a8a8;
+    border-radius: 4px;
+}
